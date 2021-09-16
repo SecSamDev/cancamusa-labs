@@ -4,7 +4,7 @@
     "config": {
         "siem": {
             "elasticsearch": {
-                "host": "http://10.20.0.1:9200/elasticsearch",
+                "host": "http://10.20.0.1:9200",
                 "security": {
                     "username": "username",
                     "password": "password"
@@ -113,6 +113,95 @@
             "host_id": 2001,
             "cpus": [
                 {
+                    "Name": "Intel(R) Xeon(R) CPU E5-2430L v2 @ 2.40GHz",
+                    "NumberOfCores": 2,
+                    "NumberOfLogicalProcessors": 2,
+                    "Family": "Intel",
+                    "CpuType": "Haswell"
+                }
+            ],
+            "ram": {
+                "Manufacturer": "Crucial",
+                "Capacity": 8000000000
+            },
+            "disks": [
+                {
+                    "DeviceID": "C",
+                    "VolumeName": "SRVDC2",
+                    "Size": 500000000000,
+                    "FreeSpace": 13991410076682
+                }
+            ],
+            "accounts": [],
+            "networks": [
+                {
+                    "Description": "HP",
+                    "SettingID": "{ceb596b8-f9ef-462d-8242-ccc6162fa0c6}",
+                    "MACAddress": "00:00:63:8d:91:82",
+                    "DNSDomain": "8.8.8.8",
+                    "DNSHostName": "8.8.4.4",
+                    "Index": 0,
+                    "InterfaceIndex": 0,
+                    "IPAddress": [
+                        "10.20.0.3"
+                    ],
+                    "IPSubnet": [
+                        "255.255.255.0"
+                    ],
+                    "DefaultIPGateway": [
+                        "10.20.0.1"
+                    ],
+                    "AssignMethod": "static"
+                }
+            ],
+            "bios": {
+                "Manufacturer": "American Megatrends Inc.",
+                "Version": "ALASKA - 1072009",
+                "Caption": "BIOS Date: 05/30/14 21:22:47 Ver: 04.06.05",
+                "Description": "BIOS Date: 05/30/14 21:22:47 Ver: 04.06.05",
+                "ReleaseDate": "20140530000000.000000+000",
+                "Name": "BIOS Date: 05/30/14 21:22:47 Ver: 04.06.05",
+                "SoftwareElementID": "BIOS Date: 05/30/14 21:22:47 Ver: 04.06.05",
+                "SoftwareElementState": 3,
+                "SystemBiosMajorVersion": 4,
+                "SystemBiosMinorVersion": 6,
+                "SMBIOSMajorVersion": 6,
+                "SMBIOSMinorVersion": 6,
+                "EmbeddedControllerMajorVersion": 255,
+                "EmbeddedControllerMinorVersion": 255,
+                "PSComputerName": "SRVDC2",
+                "SMBIOSBIOSVersion": "F5"
+            },
+            "roles": [
+                {
+                    "Name": "DC",
+                    "Config": {
+                        "safe_mode_password": "SafeModePassw123!",
+                        "ip": "10.20.0.3",
+                        "primary": false,
+                        "admin_user": "Admin",
+                        "admin_password": "CancamusaRocks123!"
+                    }
+                }
+            ],
+            "os": {
+                "Name": "Windows Server 2016",
+                "Major": 10,
+                "Minor": 0,
+                "Build": 14393,
+                "Revision": 1607,
+                "MajorRevision": 1,
+                "MinorRevision": 0
+            },
+            "computer_name": "SRVDC2",
+            "domain": "cancamusa.com",
+            "selected_img_idx": 1,
+            "selected_img_pth": "/data1/template/iso/WIN_SERVER_2016_2020_12_04.iso"
+        },
+        {
+            "host_id": 2001,
+            "cpus": [
+                {
                     "Name": "Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz",
                     "NumberOfCores": 2,
                     "NumberOfLogicalProcessors": 2,
@@ -201,99 +290,6 @@
             "domain": "cancamusa.com",
             "selected_img_idx": 0,
             "selected_img_pth": "/data1/template/iso/win7_ent_x64.iso"
-        },
-        {
-            "host_id": 2002,
-            "cpus": [
-                {
-                    "Name": "Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz",
-                    "NumberOfCores": 2,
-                    "NumberOfLogicalProcessors": 2,
-                    "Family": "Intel",
-                    "CpuType": "Haswell"
-                }
-            ],
-            "ram": {
-                "Manufacturer": "Crucial",
-                "Capacity": 8000000000
-            },
-            "disks": [
-                {
-                    "DeviceID": "C",
-                    "VolumeName": "WRK10W1",
-                    "Size": 500000000000,
-                    "FreeSpace": 28193028465658
-                }
-            ],
-            "accounts": [
-                {
-                    "Name": "arantza.real",
-                    "LocalAccount": "False",
-                    "AccountType": "512",
-                    "PSComputerName": "WRK10W1",
-                    "Description": "Arantza Real",
-                    "SID": "S-1-5-21-2718119982-1426233563-2378531167-200",
-                    "Lockout": "False",
-                    "PasswordChangeable": "True",
-                    "PasswordExpires": "False",
-                    "PasswordRequired": "True",
-                    "Domain": "cancamusa.com",
-                    "Password": "CancamusaRocks123!"
-                }
-            ],
-            "networks": [
-                {
-                    "Description": "HP",
-                    "SettingID": "{a055e6b6-20e1-4ba0-bd6f-721b3f84000d}",
-                    "MACAddress": "00:00:63:7a:ac:75",
-                    "DNSDomain": "",
-                    "DNSHostName": "",
-                    "Index": 0,
-                    "InterfaceIndex": 0,
-                    "IPAddress": [
-                        "10.20.0.6"
-                    ],
-                    "IPSubnet": [
-                        "255.255.255.0"
-                    ],
-                    "DefaultIPGateway": [
-                        "10.20.0.1"
-                    ],
-                    "AssignMethod": "static"
-                }
-            ],
-            "bios": {
-                "Manufacturer": "American Megatrends Inc.",
-                "Version": "ALASKA - 1072009",
-                "Caption": "BIOS Date: 05/30/14 21:22:47 Ver: 04.06.05",
-                "Description": "BIOS Date: 05/30/14 21:22:47 Ver: 04.06.05",
-                "ReleaseDate": "20140530000000.000000+000",
-                "Name": "BIOS Date: 05/30/14 21:22:47 Ver: 04.06.05",
-                "SoftwareElementID": "BIOS Date: 05/30/14 21:22:47 Ver: 04.06.05",
-                "SoftwareElementState": 3,
-                "SystemBiosMajorVersion": 4,
-                "SystemBiosMinorVersion": 6,
-                "SMBIOSMajorVersion": 6,
-                "SMBIOSMinorVersion": 6,
-                "EmbeddedControllerMajorVersion": 255,
-                "EmbeddedControllerMinorVersion": 255,
-                "PSComputerName": "WRK10W1",
-                "SMBIOSBIOSVersion": "F5"
-            },
-            "roles": [],
-            "os": {
-                "Name": "Windows 10",
-                "Major": 10,
-                "Minor": 0,
-                "Build": 1909,
-                "Revision": 18363,
-                "MajorRevision": 1,
-                "MinorRevision": 0
-            },
-            "computer_name": "WRK10W1",
-            "domain": "cancamusa.com",
-            "selected_img_idx": 0,
-            "selected_img_pth": "/data1/template/iso/WIN_10_2020_12_04.iso"
         }
     ],
     "domain": {
@@ -380,7 +376,7 @@
                 "name": "CNCMS",
                 "default_admin": "Admin",
                 "default_admin_password": "CancamusaRocks123!",
-                "dc_ip": "10.20.0.3"
+                "dc_ip": "10.20.0.2"
             }
         ]
     },
