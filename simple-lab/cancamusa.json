@@ -62,6 +62,10 @@
                     "DefaultIPGateway": [
                         "10.20.0.1"
                     ],
+                    "DNSServers" : [
+                        "8.8.8.8",
+                        "8.8.4.4"
+                    ],
                     "AssignMethod": "static"
                 }
             ],
@@ -166,6 +170,10 @@
                     "DefaultIPGateway": [
                         "10.20.0.1"
                     ],
+                    "DNSServers" : [
+                        "8.8.8.8",
+                        "8.8.4.4"
+                    ],
                     "AssignMethod": "static"
                 }
             ],
@@ -258,6 +266,10 @@
                     ],
                     "DefaultIPGateway": [
                         "10.20.0.1"
+                    ],
+                    "DNSServers" : [
+                        "8.8.8.8",
+                        "8.8.4.4"
                     ],
                     "AssignMethod": "static"
                 }
