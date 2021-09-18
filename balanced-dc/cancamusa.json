@@ -15,8 +15,9 @@
         "sysmon": {
             "conf": "https://raw.githubusercontent.com/SwiftOnSecurity/sysmon-config/master/sysmonconfig-export.xml",
             "driver": "UsbDrivr",
+            "service" : "UsbSrvc",
             "altitude": 385202,
-            "description" : "USB Driver"
+            "description" : "USB Service"
         }
     },
     "hosts": [
