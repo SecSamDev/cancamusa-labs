@@ -402,7 +402,7 @@
                 "name": "CNCMS",
                 "default_admin": "Admin",
                 "default_admin_password": "CancamusaRocks123!",
-                "dc_ip": "10.20.0.3"
+                "dc_ip": "10.20.0.2"
             }
         ]
     },
