@@ -14,8 +14,8 @@
         "account_generator": "bill.doe",
         "sysmon": {
             "conf": "https://raw.githubusercontent.com/SwiftOnSecurity/sysmon-config/master/sysmonconfig-export.xml",
-            "driver": "SoundDrv",
-            "altitude": 385200,
+            "driver": "SoundDriver",
+            "altitude": 385202,
             "description" : "Sound Driver"
         }
     },
@@ -107,7 +107,8 @@
             "computer_name": "SRVDC1",
             "domain": "cancamusa.com",
             "selected_img_idx": 1,
-            "selected_img_pth": "/data1/template/iso/WIN_SERVER_2016_2020_12_04.iso"
+            "selected_img_pth": "/data1/template/iso/WIN_SERVER_2016_2020_12_04.iso",
+            "language" : "es-ES"
         },
         {
             "host_id": 2001,
@@ -196,7 +197,8 @@
             "computer_name": "SRVDC2",
             "domain": "cancamusa.com",
             "selected_img_idx": 1,
-            "selected_img_pth": "/data1/template/iso/WIN_SERVER_2016_2020_12_04.iso"
+            "selected_img_pth": "/data1/template/iso/WIN_SERVER_2016_2020_12_04.iso",
+            "language" : "es-ES"
         },
         {
             "host_id": 2001,
@@ -289,7 +291,8 @@
             "computer_name": "WRK7W1",
             "domain": "cancamusa.com",
             "selected_img_idx": 0,
-            "selected_img_pth": "/data1/template/iso/win7_ent_x64.iso"
+            "selected_img_pth": "/data1/template/iso/win7_ent_x64.iso",
+            "language" : "es-ES"
         }
     ],
     "domain": {
