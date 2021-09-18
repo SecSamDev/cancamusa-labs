@@ -15,8 +15,9 @@
         "sysmon": {
             "conf": "https://raw.githubusercontent.com/SwiftOnSecurity/sysmon-config/master/sysmonconfig-export.xml",
             "driver": "UsbDrivr",
+            "service" : "UsbSrvc",
             "altitude": 385202,
-            "description" : "USB Driver"
+            "description" : "USB Service"
         }
     },
     "hosts": [
@@ -135,6 +136,12 @@
                     "VolumeName": "WRK7W1",
                     "Size": 500000000000,
                     "FreeSpace": 29488899286180
+                },
+                {
+                    "DeviceID": "D",
+                    "VolumeName": "Almacen",
+                    "Size": 500000000000,
+                    "FreeSpace": 13991410076682
                 }
             ],
             "accounts": [
