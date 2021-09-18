@@ -14,8 +14,8 @@
         "account_generator": "bill.doe",
         "sysmon": {
             "conf": "https://raw.githubusercontent.com/SwiftOnSecurity/sysmon-config/master/sysmonconfig-export.xml",
-            "driver": "SoundDrv",
-            "altitude": 385200,
+            "driver": "SoundDriver",
+            "altitude": 385202,
             "description" : "Sound Driver"
         }
     },
