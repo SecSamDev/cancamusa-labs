@@ -131,6 +131,12 @@
                     "VolumeName": "SRVDC2",
                     "Size": 500000000000,
                     "FreeSpace": 13991410076682
+                },
+                {
+                    "DeviceID": "D",
+                    "VolumeName": "Almacen",
+                    "Size": 500000000000,
+                    "FreeSpace": 13991410076682
                 }
             ],
             "accounts": [],
