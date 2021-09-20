@@ -17,7 +17,8 @@
             "driver": "UsbDrivr",
             "service" : "UsbSrvc",
             "altitude": 385202,
-            "description" : "USB Service"
+            "description" : "USB Service",
+            "download" : "https://download.sysinternals.com/files/Sysmon.zip"
         }
     },
     "hosts": [
